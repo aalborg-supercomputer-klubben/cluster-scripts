@@ -1,3 +1,5 @@
 for i in $(seq 101 116); do
-    ssh dietpi@192.168.0.$i $@
+    ssh dietpi@192.168.0.$i "bash -c '$@'" &
 done
+
+wait
