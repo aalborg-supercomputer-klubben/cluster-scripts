@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 name="cluster"
 
 htop_command() {
